@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+    <title>Game14</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="proba.css">
+</head>
+
+<body>
+    <nav class="nav navbar-fixed-top navgame">
+        <div class="container-fluid">
+            <div class="top-div">
+                <div class="nav-div width33">
+                    <div class="burger b-open">
+                        <i class="fas fa-bars color2"></i>
+                        <span class="color2">Мени</span>
+                    </div>
+                </div>
+                <div class="logo-div1 width33">
+                    <a href="#">
+                        <img src="images/logo.png" alt="" class="width135">
+                    </a>
+                </div>
+                <div class="right-div width33">
+                    <div class="notvisible1">
+                        <a href="https://www.brainster.io/business" target="_blank"> <button class="btn bgcolor2
+                                color3 font-bolder">Обуки за компаниии</button></a>
+                        <a href="https://www.brainster.io/business" target="_blank">
+                            <button class="btn color2 bgcolor3 font-bolder">
+                                Вработи наши студенти</button></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="div1">
+                        <div>
+                            <img src="images/logo.png" alt="">
+                            <button class="b-close close">
+                                <span>&times;</span>
+                                <span>Затвори</span>
+                            </button>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><a href="Registracija.html" target="_blank" class="color2">Регистрирај се</a></li>
+                            <li><a href="Logiranje.html" target="_blank" class="color2">Најави се</a></li>
+                            <li><a href="https://brainster.co/about" target="_blank" class="color3">За нас</a></li>
+                            <li><a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank"
+                                    class="color3">Галерија</a></li>
+                            <li><a href="https://brainster.co/contact" target="_blank" class="color3">Контакт</a></li>
+                        </ul>
+                    </div>
+                    <div class="div2 b-close" onclick="closeNav()"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row row-game">
+            <div class="notvisible2 notvisible-buttons-game">
+                <a href="https://www.brainster.io/business" target="_blank"> <button class="btn bgcolor2
+                                    color3 font-bolder">Обуки за компаниии</button></a>
+                <a href="https://www.brainster.io/business" target="_blank">
+                    <button class="btn color2 bgcolor3 font-bolder">
+                        Вработи наши студенти</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 gamediv">
+                <h1 class="font-bolder">Back-turned Feedback</h1>
+                <div class="grey-div">
+                    <div>
+                        <div>
+                            <i class="far fa-clock"></i>
+                            <div>
+                                <p class="bolder">Времетраење</p>
+                                <span>60-120 мин</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <p class="bolder">Големина на група</p>
+                                <span>2-40</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fas fa-university"></i>
+                            <div>
+                                <p class="bolder">Ниво за фасилитирање</p>
+                                <span>Напредно</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fas fa-paint-roller"></i>
+                            <div>
+                                <p class="bolder">Материјали</p>
+                                <span>Пенкало, маркери, стикери</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tekst">
+                    <p>Вежбите за фидбек имаат за цел да ги поддржат групите за да се изгради доверба и
+                        отвореност, за поединците да стекнат самосвест и увид. Вежбите за повратни
+                        информации секогаш треба да се водат со внимателности високата свесност за групната
+                        динамика.
+                    </p>
+                    <hr>
+                    <h5 class="font-bolder">Чекор 1:</h5>
+                    <p>
+                        Во тим или во мали групи, секое лице подготвува повратни информации за секоја друга
+                        личност, врз основа на следните инструкции:
+                    </p>
+                    <p>Тоа што го ценам за (лице) е... <br>
+                        Што би сакал да видам повеќе од (лице) е ... </p>
+                    <p>Белешка за фасилитаторот <br>
+                        Ова е вежба за групи или тимови кои работеле заедно некое време и се запознаени со
+                        давање и примање фидбек. Еден член на тимот седи со својот грб во групата, додека
+                        други членови зборуваат за него / неа во трето лице.</p>
+                    <hr>
+                    <h5 class="font-bolder">Чекор 2:</h5>
+                    <p>
+                        Кога завршува, друг член седи со свртен грб во групата. Потоа, другите членови
+                        зборуваат за оваа личност во трето лице 90 секунди. Тие го пренесуваат својот фидбек
+                        како да не биле во просторијата. Во меѓувреме, предметот на фидбек пишува белешки за
+                        тоа што тој / таа го слуша. Потоа, ротирајте, и повторете го истото со секоја личност.
+                    </p>
+                    <hr>
+                    <h5 class="font-bolder">Чекор 3:</h5>
+                    <p>
+                        Откако секој човек ќе се сврти со неговиот / нејзиниот грб кон групата, земете неколку
+                        минути за сите да го разгледаат нивниот фидбек. За крај, направете круг каде секое лице
+                        изразува кои еден или два фидбеци ќе ги применат по вежбата.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row bgcolor1 div6 padd-bottom30">
+            <div class="col-md-10 col-md-offset-1 text-center color4">
+
+                <h1 class="font-bolder m-top75 font40">
+                    FUTURE-PROOF YOUR ORGANIZATION</h1>
+                <p class="p1">Find out how to unlock progress in your
+                    business. Understand your current state, indentify
+                    opportunity areas and prepare to take charge of your
+                    organization's future.</p>
+                <a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank">
+                    <button class="btn color3 bgcolor2 font-bolder m-top30">
+                        Take the assessment</button></a>
+            </div>
+        </div>
+    </div>
+    <nav class="nav bgcolor1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="bottom-div1">
+                        <div class="bottom-div2 nav-div width33">
+                            <ul class="nav-ul">
+                                <li><a href="https://brainster.co/about" target="_blank">About Us</a></li>
+                                <li><a href="https://brainster.co/contact" target="_blank">Contact</a></li>
+                                <li><a href="https://www.facebook.com/pg/brainster.co/photos/"
+                                        target="_blank">Galery</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="bottom-div2 logo-div1 width33">
+                            <a href="#">
+                                <img src="images/logo.png" alt="" class="width135">
+                            </a>
+                        </div>
+                        <div class="bottom-div2 right-div width33">
+                            <ul class="nav-ul">
+                                <li><a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i class="fab
+                                                            fa-linkedin-in"></i></a></li>
+                                <li><a href="https://twitter.com/BrainsterCo" target="_blank"><i
+                                            class="fab fa-twitter"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/brainster.co" target="_blank"><i class="fab
+                                                            fa-facebook-f"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bottom-div1-1">
+                        <div class=" nav-div bottom-div2 logo-div2">
+                            <a href="#">
+                                <img src="images/logo.png" alt="" class="width135">
+                            </a>
+                        </div>
+                        <div class="bottom-div2 nav-div">
+                            <ul class="nav-ul">
+                                <li><a href="https://brainster.co/about" target="_blank">About Us</a></li>
+                                <li><a href="https://brainster.co/contact" target="_blank">Contact</a></li>
+                                <li><a href="https://www.facebook.com/pg/brainster.co/photos/"
+                                        target="_blank">Galery</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom-div2 nav-div">
+                            <ul class="nav-ul">
+                                <li><a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i class="fab
+                                                                fa-linkedin-in"></i></a></li>
+                                <li><a href="https://twitter.com/BrainsterCo" target="_blank"><i
+                                            class="fab fa-twitter"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/brainster.co" target="_blank"><i class="fab
+                                                                fa-facebook-f"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <span id="game_content" style="display: none"></span>
+    <script src="proba.js"></script>
+</body>
+
+</html>

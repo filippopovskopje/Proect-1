@@ -1,0 +1,529 @@
+.bgcolor1{
+    background-color: rgb(67, 23, 129);
+}
+.bgcolor2{
+    background-color:rgb(252, 210, 50);
+}
+.bgcolor3{
+    background-color: black;
+}
+.color2{
+    color:rgb(252, 210, 50);
+}
+.color3{
+    color: black;
+}
+.color4{
+    color: white;
+}
+.font-bolder{
+    font-weight: bolder;
+}
+.m-top30{
+    margin-top: 30px;
+}
+.font40{
+    font-size: 40px;
+}
+.m-top60{
+    margin-top: 60px;
+}
+.width135{
+    width: 135px;
+}
+.bolder{
+    font-weight: bolder;
+}
+.italic{
+    font-style: italic;
+}
+.width33{
+    width: 33%;
+}
+/* --------------------Standardni clasi za site */
+.div1{
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 2;
+}
+.openMenu{
+    width: 25%;
+}
+.darkBackground{
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    z-index: 1;
+    width: 100%;
+}
+.div1 > div{
+    margin-bottom: 20vh;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.div1 img{
+    width: 100px;
+}
+.div1 li{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
+    padding: 6px 12px;
+}
+.div1 a{
+    font-weight: bolder;
+}
+.close{
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    border: none;
+    background: none;
+}
+.close > span:first-child{
+    font-size: 40px;
+    font-weight: 200;
+}
+.close > span:last-child{
+    font-size: 12px;
+}
+.top-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-div{ 
+    display: flex;
+    justify-content: flex-start;
+}
+.logo-div1{
+    display: flex;
+    justify-content: center;
+}
+.right-div{
+    display: flex;
+    justify-content: flex-end;
+}
+.burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger:hover{
+cursor: pointer;
+}
+.burger > .fas{
+    font-size: 25px;
+    margin: 7px;
+    padding: 7px;
+}
+.nav2{
+    margin-left:21%;
+}
+.div3{
+    background-image: -webkit-linear-gradient(100deg, white 50%,rgb(67, 23, 129)  50%);
+    height: 200vh;
+    padding-top: 30px;
+}
+.div3 > div > p > a > span{
+    text-decoration: underline;
+}
+.notvisible2{
+    display: none;
+}
+.p1{
+    font-size: 16px;
+    margin: 10px 210px;
+}
+.div4{
+      background-image: -webkit-linear-gradient(100deg, rgb(67, 23, 129)  50%, white 50%);
+      height: 180vh; 
+      margin-top: -130vh;
+      padding-bottom: 30px;
+}
+.nav-ul{
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+.bottom-div2 > ul > li{
+   display: inline;
+   margin:10px 15px;
+}
+.bottom-div2 > ul > li > a{
+      color: white;
+      font-size: 12px;
+      font-weight: bolder;
+}
+.bottom-div2 > ul > li > a > i{
+      color:rgb(252, 210, 50);
+      font-size: 23px;
+}
+.bottom-div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.bottom-div1-1{
+    display: none;
+}
+.nav{
+      padding-top: 12px; 
+      padding-bottom: 12px; 
+}
+.nav>li>a:hover{
+      background-color: transparent;
+      color:rgb(252, 210, 50);
+}
+.btn:hover{
+      color:white;
+}
+.row0{
+    margin-top: -145vh;
+}
+/* -------------------od Java Script */
+.big-div-game{
+    box-shadow: 2px 7px 21px -3px rgba(88,107,184,1);
+    margin-bottom: 20px;
+}
+.big-div-game > img{
+    width: 100%;
+    height: 230px;
+    border-radius: 6px 6px 0 0;
+}
+.small-div-game{
+    padding: 25px 15px 10px 15px;
+    background-color:white;
+    position: relative;
+    border-radius: 0 0 6px 6px;
+    color: black;
+}
+.small-div-game > p:first-of-type > span{
+    color: rgb(226, 43, 165);
+}
+.small-div-game > p:nth-of-type(2){
+    font-size: 13px;
+}
+.small-div-game > p:nth-of-type(2) > span{
+    color: turquoise;
+}
+.img{
+    width: 45px;
+    border-radius: 100%;
+    padding: 7px;
+    background-color: rgb(24, 23, 23);
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+.clock-div{
+    display: flex;
+    justify-content: flex-start;
+    margin: 25px 0;
+}
+.clock-div p{
+    margin: 0;
+}
+.clock-div span{
+    font-size: 12px;
+}
+.small-div-game i{
+    font-size: 22px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+.row1 > div:hover{
+    transform: scale(1.01);
+    transition: transform 0.3s ease-in-out;
+}
+.row1 a{
+    text-decoration: none;
+}
+.big-div-game:hover{
+    box-shadow: 2px 7px 21px -3px rgb(190, 31, 79);
+}
+/* -------------------------------------Registracija */
+.reg-form > input, label, select, textarea{
+   margin-bottom: 10px; 
+   border: 2px solid rgb(252, 210, 50) !important;
+   background-color: #fff;
+}
+#vraboteni, #sektor{
+    display: block;
+    width: 50%;
+}
+.reg-form > img{
+    width: 50%;
+    margin: 20px 25%;
+}
+.reg-row{
+   background-image: url("images/registration.jpg");
+   background-position: center;
+   background-size: cover;
+   min-height: 100vh;
+}
+.backarrows{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+/* -------------------------------Logiranje */
+.logiranje{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(67, 23, 129), rgb(252, 210, 50));
+}
+.logiranje > div > div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border-bottom: 3px solid  rgb(252, 210, 50);
+}
+.logiranje img{
+    width: 70%;
+}
+.logiranje form{
+    border-bottom: 3px solid  rgb(252, 210, 50); 
+    padding: 15% 0;
+    color:  rgb(252, 210, 50);
+}
+.logiranje input, span{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.logiranje input{
+    background: transparent;
+    border: 2px solid  rgb(252, 210, 50);
+    color: white;
+}
+/* --------------------------game-html */
+.row-game{
+    background-image: url('images/game.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 120vh; 
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 91%);
+}
+.grey-div{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    height: 16vh;
+    border-radius: 11px;
+    margin: 20px 0;
+}
+.grey-div > div{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.grey-div > div > div{
+    display: flex;
+}
+.grey-div > div > div > i{
+    font-size: 22px;
+    margin-right: 8px;
+}
+.grey-div > div > div  span{
+    font-size: 13px;
+}
+.grey-div > div > div  p{
+    margin-bottom: 0;
+}
+.div6{
+    background-image: -webkit-linear-gradient(100deg, rgb(67, 23, 129)  50%, white 50%);
+    height: 120vh; 
+    padding-top: 70vh;
+    margin-top: -30vh; 
+}
+.tekst ul{
+list-style: none;
+}
+/* ------------------------------Responzivnost  */
+@media screen and (max-width: 1345px){
+    .notvisible1{
+        display: none;
+    }
+    .notvisible2{
+        display: flex;
+        justify-content: center;
+        padding: 5px 10px;
+    }
+    .notvisible2 button{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .notvisible-buttons-game{
+        margin-top: 20vh;
+    }
+    .grey-div{
+        height: 20vh;
+    }
+}
+@media screen and (max-width: 1100px){
+    .small-div-game > p:first-of-type > span{
+        display: block;
+     }
+     .row0, .div4{
+        margin-top: -125vh;
+    }
+    .p1{
+        margin: 10px;
+    }  
+}
+@media screen and (max-width: 768px){
+.openMenu{
+    width: 40%;
+}     
+.big-div-game > img{
+        display: none;
+} 
+.grey-div{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+.grey-div > div{
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+}
+@media screen and (max-width: 425px){
+.openMenu{
+    width: 80%;
+}   
+.width135{
+    width: 90px;
+}
+.div3 > div > p:first-of-type, .div3 button, .notvisible2 button{
+    font-size: 10px;
+}
+.div3{
+    padding-top: 10px;
+    height: 110vh;
+}
+.burger > .fas, .font40{
+    font-size: 21px;
+}
+.row0{
+    margin-top: -46vh;
+}
+.bottom-div1{
+  display: none;
+}
+.div4{
+    height: 130vh;
+    margin-top: -70vh;
+}
+.div4 > div{
+    margin-top: 85vh;
+}
+.small-div-game > p:first-of-type > span{
+    display: initial;
+ }
+ .p1{
+     font-size: 12px;
+ }
+ .bottom-div1-1{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: column-reverse;
+     height: 30vh;
+     margin: 10px 0;
+ }
+ .row-game{
+     height: 80vh;
+ }
+}
+@media screen and (min-width: 2560px){
+.burger > .fas{
+        font-size: 45px;
+}
+.width135{
+    width: 220px;
+}
+.btn, .bottom-div2 > ul > li > a, body{
+    font-size: 25px;
+}
+.div3{
+    padding-top: 80px;
+}
+.div3 h1, .div4 h1{
+    font-size: 60px;
+    margin-top: 40px;
+}
+.p1{
+    font-size: 30px;
+}
+.m-top30{
+    margin-top: 70px;
+}
+.big-div-game > img{
+    height: 500px;
+    border-radius: 16px 16px 0 0;
+}
+.big-div-game{
+    margin-bottom: 50px;
+}
+.img{
+    width: 90px;
+}
+.small-div-game > p:nth-of-type(2), .clock-div span {
+    font-size: 23px;
+}
+.small-div-game i, .bottom-div2 > ul > li > a > i {
+    font-size: 35px;
+}
+.div1 img {
+    width: 130px;
+}
+.close > span:last-child {
+    font-size: 22px;
+}
+.close > span:first-child{
+    font-size: 60px;
+}
+.div1 > div > img{
+    width: 200px;
+}
+.form-control{
+    font-size: 24px;
+    padding: 25px 12px;
+}
+.logiranje form > button{
+    padding-bottom: 50px;
+}
+.backarrows{
+    font-size: 50px;
+}
+.nav{
+    padding-top: 14px; 
+    padding-bottom: 14px; 
+}
+#check{
+    width: 13px !important;
+    height: 13px !important;
+    zoom: 2;
+}
+}
+
+
+
+
+
+  
+ 
